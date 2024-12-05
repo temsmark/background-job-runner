@@ -342,6 +342,7 @@ public int $perPage = 25; // Change to desired number
 The background jobs system is organized under the `Domain` namespace with the following structure:
 
 ```
+app
 Domain/
 ├── Exceptions/
 │   └── JobRunnerException.php
@@ -350,6 +351,7 @@ Domain/
 ├── CustomLogger.php
 ├── ExampleJob.php
 └── helper.php
+worker.php
 ```
 
 ## Directory Purpose and Contents
